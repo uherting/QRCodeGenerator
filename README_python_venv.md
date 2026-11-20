@@ -15,5 +15,12 @@ A virtual environment may be “activated” using a script in its binary direct
 
 ```source <venv>/bin/activate```
 
+## requirements.txt
+
+A Python requirements.txt file lists packages for pip to install, usually one package per line, with optional version constraints such as requests>=2.28. Install them with 
+
+```pip install -r requirements.txt```
+
 ----
 For details, further information and the bleeding edge on virtual environments see: https://docs.python.org/3/library/venv.html
+
